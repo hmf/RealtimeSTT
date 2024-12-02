@@ -6,7 +6,7 @@ WRITE_TO_KEYBOARD_INTERVAL = 0.002
 
 if __name__ == '__main__':
 
-    from install_packages import check_and_install_packages
+    from tests.install_packages import check_and_install_packages
     check_and_install_packages([
         {
             'import_name': 'rich',
