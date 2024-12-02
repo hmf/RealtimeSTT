@@ -136,10 +136,10 @@ if __name__ == '__main__':
     # Recorder configuration
     recorder_config = {
         'spinner': False,
-        'model': 'small.en', # 'large-v2', # or large-v2 or deepdml/faster-whisper-large-v3-turbo-ct2 or ...
+        'model': 'distil-small', # 'small.en', # 'large-v2', # or large-v2 or deepdml/faster-whisper-large-v3-turbo-ct2 or ...
         # 'input_device_index': 1,
-        'realtime_model_type': 'tiny.en', # or small.en or distil-small.en or ...
-        'language': 'en',
+        'realtime_model_type': 'distil-small', # 'tiny.en', # or small.en or distil-small.en or ...
+        'language': 'pt', #, 'en',
         'silero_sensitivity': 0.05,
         'webrtc_sensitivity': 3,
         'post_speech_silence_duration': unknown_sentence_detection_pause,
