@@ -1,0 +1,16 @@
+# sudo apt-get install python3-all-dev portaudio19-dev
+PyAudio==0.2.14
+
+# # https://pip.pypa.io/en/stable/cli/pip_install/#requirements-file-format
+# --index-url https://download.pytorch.org/whl/cu124
+# torch==2.5.1+cu124 
+# torchaudio==2.5.1 
+# faster-whisper==1.0.3
+# pvporcupine==1.9.5
+# webrtcvad-wheels==2.0.14
+# halo==0.0.31
+# scipy==1.14.1
+# websockets==v12.0
+# websocket-client==1.8.0
+# openwakeword>=0.4.0
+# numpy<2.0.0
